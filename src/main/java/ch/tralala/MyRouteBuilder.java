@@ -1,5 +1,4 @@
 package ch.tralala;
-
 import jdk.nashorn.internal.objects.annotations.Property;
 import org.apache.camel.builder.RouteBuilder;
 
