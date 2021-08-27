@@ -1,0 +1,1 @@
+[![](https://jitpack.io/v/hadoken79/jitPackCamelTest.svg)](https://jitpack.io/#hadoken79/jitPackCamelTest)
