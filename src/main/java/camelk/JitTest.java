@@ -1,10 +1,12 @@
-package ch.tralala;
+package camelk;
 import org.apache.camel.builder.RouteBuilder;
+
+
 
 /**
  * A Camel Java DSL Router
  */
-public class MyRouteBuilder extends RouteBuilder {
+public class JitTest extends RouteBuilder {
 
     /**
      * Let's configure the Camel routing rules using Java code...

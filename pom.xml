@@ -55,12 +55,12 @@
       <artifactId>camel-test</artifactId>
       <scope>test</scope>
     </dependency>
-    <!-- Make dependent classes available with jitpack
+    <!-- Make dependent classes available with jitpack -->
     <dependency>
       <groupId>com.github.hadoken79</groupId>
       <artifactId>jitPackCamelTest</artifactId>
-      <version>main-SNAPSHOT</version>
-    </dependency>-->
+      <version>main-38bd967d9a-1</version>
+    </dependency>
   </dependencies>
 
   <build>
