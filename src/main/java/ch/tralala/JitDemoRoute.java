@@ -1,12 +1,11 @@
-package camelk;
+// camel-k: dependency=github:hadoken79/jitPackCamelTest/v1.1
+package ch.tralala;
 import org.apache.camel.builder.RouteBuilder;
-
-
 
 /**
  * A Camel Java DSL Router
  */
-public class JitTest extends RouteBuilder {
+public class JitDemoRoute extends RouteBuilder {
 
     /**
      * Let's configure the Camel routing rules using Java code...
@@ -19,6 +18,7 @@ public class JitTest extends RouteBuilder {
                 .setProperty("key", constant("val"))
                 .setHeader("key", constant("val"))
                 .setBody(constant("foo"))
-                .process(new testProcessor());
+                .process(new testProcessor())
+                .log("${body}");
     }
 }

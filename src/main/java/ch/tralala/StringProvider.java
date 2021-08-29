@@ -1,8 +1,8 @@
 package ch.tralala;
 
-public class Test {
+public class StringProvider {
     private String testString;
-    public Test(){
+    public StringProvider(){
         this.testString = "bar";
     }
     public String getMsg(String in){
